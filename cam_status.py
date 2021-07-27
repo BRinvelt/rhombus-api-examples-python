@@ -5,7 +5,7 @@ import json
 from datetime import datetime, timedelta
 import time
 #This script runs a quick report on the status of all cameras in an organization, report includes name,uuid,status and details if there are any
-class cameraStatus:
+class CameraStatus:
     #Set up workspace for API calls to Rhombus Systems
     def __init__(self,args):
         #Initialize argument parser and parse command line arguments
