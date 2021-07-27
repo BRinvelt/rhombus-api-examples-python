@@ -82,5 +82,5 @@ class CameraStatus:
         return argParser
         
 if __name__ == "__main__":
-    engine = cameraStatus(sys.argv[1:])
+    engine = CameraStatus(sys.argv[1:])
     engine.getStatus()
